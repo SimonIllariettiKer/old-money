@@ -1,0 +1,123 @@
+body {
+    .body-index {
+        background-image: url('../img/backround.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;;
+    }
+    header {
+        width: 100%;
+
+        .navbar {
+            background-color: #e3e3f475;
+            height: 200px;
+            display: flex;
+            align-items: center;
+
+            ul {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 90%;
+
+                li {
+                    list-style: none;
+
+                    a {
+                        list-style: none;
+                        margin-left: 40px;
+                        margin-right: 40px;
+                        color: grey;
+                        font-family: "dancing-script";
+                        text-decoration: none;
+
+                        &:hover {
+                            color: white;
+                            text-decoration: underline;
+                        }
+
+                        img {
+                            width: 200px;
+                            height: 200px;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+                img {
+                    width: 200px;
+                    height: 200px;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+
+    main {
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+
+        .h1-index {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            background-color: #e3e3f475;
+            margin-bottom: 75px;
+
+            h1 {
+                color: navy;
+                font-family: 'script';
+                width: 280px;
+                font-size: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        .images-index {
+            display: flex;
+            justify-content: space-between;
+            width: 90vw;
+            height: 300px;
+            overflow: hidden;
+            margin-bottom: 30px;
+
+            img {
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+        }
+    }
+
+    footer {
+        height: 150px;
+        background-color: #e3e3f475;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .ul-footer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 90%;
+
+            li {
+                list-style: none;
+                margin-left: 40px;
+                margin-right: 40px;
+                color: white;
+                font-family: "dancing-script";
+
+                &:hover {
+                    color: navy;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

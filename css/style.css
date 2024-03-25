@@ -1,0 +1,137 @@
+body .body-index {
+  background-image: url("../img/backround.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%; }
+
+body header {
+  width: 100%; }
+  body header .navbar {
+    background-color: #e3e3f475;
+    height: 200px;
+    display: flex;
+    align-items: center; }
+    body header .navbar ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 90%; }
+      body header .navbar ul li {
+        list-style: none; }
+        body header .navbar ul li a {
+          list-style: none;
+          margin-left: 40px;
+          margin-right: 40px;
+          color: grey;
+          font-family: "dancing-script";
+          text-decoration: none; }
+          body header .navbar ul li a:hover {
+            color: white;
+            text-decoration: underline; }
+          body header .navbar ul li a img {
+            width: 200px;
+            height: 200px;
+            margin-left: 10px; }
+      body header .navbar ul img {
+        width: 200px;
+        height: 200px;
+        margin-left: 10px; }
+
+body main {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px; }
+  body main .h1-index {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #e3e3f475;
+    margin-bottom: 75px; }
+    body main .h1-index h1 {
+      color: navy;
+      font-family: 'script';
+      width: 280px;
+      font-size: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+  body main .images-index {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 30px; }
+    body main .images-index img {
+      margin-left: 20px;
+      margin-right: 20px; }
+
+body footer {
+  height: 150px;
+  background-color: #e3e3f475;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  body footer .ul-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%; }
+    body footer .ul-footer li {
+      list-style: none;
+      margin-left: 40px;
+      margin-right: 40px;
+      color: white;
+      font-family: "dancing-script"; }
+      body footer .ul-footer li:hover {
+        color: navy;
+        text-decoration: underline; }
+
+.body-wii header {
+  width: 100%;
+  background-color: lightblue; }
+  .body-wii header .nav-wii {
+    background-color: #e3e3f475;
+    height: 200px;
+    display: flex;
+    align-items: center; }
+    .body-wii header .nav-wii ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 90%; }
+      .body-wii header .nav-wii ul li {
+        list-style: none; }
+        .body-wii header .nav-wii ul li a {
+          list-style: none;
+          margin-left: 40px;
+          margin-right: 40px;
+          color: grey;
+          font-family: "dancing-script";
+          text-decoration: none; }
+          .body-wii header .nav-wii ul li a:hover {
+            color: white;
+            text-decoration: underline; }
+          .body-wii header .nav-wii ul li a img {
+            width: 200px;
+            height: 200px;
+            margin-left: 10px; }
+      .body-wii header .nav-wii ul img {
+        width: 200px;
+        height: 200px;
+        margin-left: 10px; }
+
+.body-index {
+  background-image: url("../img/backround.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%; }
+
+.nav-wii {
+  background-image: url("../img/sky2.0.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%; }

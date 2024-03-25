@@ -1,0 +1,50 @@
+.body-wii {
+    header {
+        width: 100%;
+        background-color: lightblue;
+
+        .nav-wii {
+            background-color: #e3e3f475;
+            height: 200px;
+            display: flex;
+            align-items: center;
+
+            ul {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 90%;
+
+                li {
+                    list-style: none;
+
+                    a {
+                        list-style: none;
+                        margin-left: 40px;
+                        margin-right: 40px;
+                        color: grey;
+                        font-family: "dancing-script";
+                        text-decoration: none;
+
+                        &:hover {
+                            color: white;
+                            text-decoration: underline;
+                        }
+
+                        img {
+                            width: 200px;
+                            height: 200px;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+
+                img {
+                    width: 200px;
+                    height: 200px;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}
