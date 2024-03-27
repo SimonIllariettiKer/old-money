@@ -84,12 +84,11 @@ body footer {
   header .navbar {
     height: 300px;
     display: flex;
-    width: 80%;
     flex-direction: row;
     align-items: center;
     justify-content: space-between; }
     header .navbar ul {
-      display: none; }
+      width: 80%; }
   .main-index .images-index {
     display: flex;
     justify-content: space-between;
