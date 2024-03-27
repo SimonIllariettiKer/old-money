@@ -120,9 +120,12 @@ body {
             display: flex;
             flex-direction: row;
             align-items: center;
-            justify-content: space-between;
+            justify-content: center;
     
             ul {
+                display: flex;
+                align-items: center;
+                justify-content: center;
                 width: 80%;
             }
         }

@@ -86,8 +86,11 @@ body footer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between; }
+    justify-content: center; }
     header .navbar ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       width: 80%; }
   .main-index .images-index {
     display: flex;
