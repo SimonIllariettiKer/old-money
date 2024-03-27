@@ -82,8 +82,9 @@ body footer {
 
 @media (max-width: 600px) {
   header .navbar {
-    height: 200px;
+    height: 300px;
     display: flex;
+    width: 80%;
     flex-direction: row;
     align-items: center;
     justify-content: space-between; }
