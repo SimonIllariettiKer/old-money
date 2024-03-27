@@ -169,6 +169,29 @@ body footer {
         height: 200px;
         margin-right: 50px; }
 
+.body-wii .main-index {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+  border: solid 3px navy; }
+  .body-wii .main-index .h1-index {
+    display: flex;
+    justify-content: left;
+    background-color: #e3e3f475;
+    margin-bottom: 75px;
+    margin-top: 10px;
+    border: solid 3px silver; }
+    .body-wii .main-index .h1-index h1 {
+      color: navy;
+      font-family: 'script';
+      width: 280px;
+      font-size: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+
 @media (max-width: 600px) {
   header .nav-wii {
     height: 200px;
