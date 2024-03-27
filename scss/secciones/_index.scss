@@ -19,16 +19,17 @@ body {
             align-items: center;
 
             ul {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                width: 90%;
-                border: solid 3px blue;
+                 display: flex;
+                 align-items: center;
+                 justify-content: center;
+                 width: 90%;
 
                 .li-a-1 {
                     display: flex;
+                    justify-content: center;
                     flex-wrap: wrap;
-                    border: solid 3px red;
+                    padding: 0px;
+                    width: 100%;
 
                     li {
                         list-style: none;
@@ -36,11 +37,10 @@ body {
                         a {
                             list-style: none;
                             margin-left: 20px;
-                            margin-right: 20px;
+                            margin-right: 5px;
                             color: grey;
                             font-family: "dancing-script";
                             text-decoration: none;
-                            border: solid 3px yellow;
 
                             &:hover {
                                 color: white;
@@ -53,7 +53,7 @@ body {
                 img {
                     width: 200px;
                     height: 200px;
-                    margin-left: 10px;
+                    margin-right: 50px;
                 }
             }
         }
@@ -107,37 +107,68 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+
         img {
             width: 150px;
             height: 150px;
             margin-left: 10px;
         }
-        
+
     }
 }
 
 
 @media (max-width: 600px) {
-    header{
+    header {
         .navbar {
-            height: 300px;
+            height: 200px;
             display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: center;
-    
+
             ul {
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                width: 80%;
-                img{
+                width: 50%;
+
+                img {
                     display: none;
+                }
+
+                .li-a-1 {
+                    display: flex;
+                    justify-content: right;
+                    flex-direction: row;
+
+                    li {
+                        list-style: none;
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: row;
+
+                        a {
+                            list-style: none;
+                            margin-left: 5px;
+                            margin-right: 5px;
+                            color: grey;
+                            font-family: "dancing-script";
+                            text-decoration: none;
+                            font-size: 16px;
+
+                            &:hover {
+                                color: white;
+                                text-decoration: underline;
+                            }
+                        }
+                    }
                 }
             }
         }
     }
-    .main-index{
+
+    .main-index {
         .images-index {
             display: flex;
             justify-content: space-between;
@@ -150,10 +181,12 @@ body {
                 margin-left: 10px;
                 margin-right: 10px;
             }
-            .img-3{
+
+            .img-3 {
                 display: none;
             }
-            .img-4{
+
+            .img-4 {
                 display: none;
             }
         }
