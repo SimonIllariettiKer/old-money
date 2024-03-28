@@ -1,4 +1,5 @@
-.body-wii {
+.body-index {
+
     header {
         width: 100%;
 
@@ -50,14 +51,15 @@
         }
     }
 
-    .main-index {
-        height: 500px;
+    .main-wii {
+        height: 550px;
+        width: 90%;
         display: flex;
+        margin-left: 70px;
         flex-direction: column;
         justify-content: center;
         // margin-top: 40px;
         margin-bottom: 20px;
-        
         border: solid 3px navy;
 
         .h1-index {
@@ -71,6 +73,7 @@
 
             h1 {
                 color: navy;
+                border: solid 3px gold;
                 font-family: 'script';
                 width: 280px;
                 font-size: 30px;
@@ -79,8 +82,58 @@
                 align-items: center;
             }
         }
+
+        .info-om {
+            height: 75%;
+            width: 98%;
+            background-color: #e3e3f475;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            border: solid orange 3px;
+
+            .p-1 {
+                border: solid 3px blue;
+                width: 45%;
+                height: 98%;
+                margin: 10px;
+                display: flex;
+                align-items: center;
+                padding: 10px;
+
+            }
+
+            .p-2 {
+                border: solid 3px green;
+                width: 45%;
+                height: 98%;
+                display: flex;
+                align-items: center;
+                padding: 10px;
+
+
+            }
+
+        }
+    }
+
+    footer {
+        height: 150px;
+        background-color: #e3e3f475;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 150px;
+            height: 150px;
+            margin-left: 10px;
+        }
+
     }
 }
+
 
 @media (max-width: 600px) {
     header {
