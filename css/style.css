@@ -176,18 +176,15 @@ body footer {
   margin-left: 70px;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 20px;
-  border: solid 3px navy; }
+  margin-bottom: 20px; }
   .body-index .main-wii .h1-index {
     display: flex;
     justify-content: left;
     background-color: #e3e3f475;
     margin-bottom: 75px;
-    margin-top: 10px;
-    border: solid 3px silver; }
+    margin-top: 10px; }
     .body-index .main-wii .h1-index h1 {
       color: navy;
-      border: solid 3px gold;
       font-family: 'script';
       width: 280px;
       font-size: 30px;
@@ -199,25 +196,22 @@ body footer {
     width: 98%;
     background-color: #e3e3f475;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    border: solid orange 3px; }
+    justify-content: center;
+    align-items: center; }
     .body-index .main-wii .info-om .p-1 {
-      border: solid 3px blue;
+      color: navy;
       width: 45%;
       height: 98%;
-      margin: 10px;
       display: flex;
       align-items: center;
-      padding: 10px; }
+      padding: 15px; }
     .body-index .main-wii .info-om .p-2 {
-      border: solid 3px green;
+      color: navy;
       width: 45%;
       height: 98%;
       display: flex;
       align-items: center;
-      padding: 10px; }
+      padding: 15px; }
 
 .body-index footer {
   height: 150px;
@@ -264,6 +258,46 @@ body footer {
             header .nav-wii ul .li-a-1 li a:hover {
               color: white;
               text-decoration: underline; } }
+
+@media (max-width: 600px) and (max-width: 600px) {
+  .body-index .main-wii {
+    height: 700px;
+    width: 90%;
+    display: flex;
+    margin-left: 30px;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px; }
+    .body-index .main-wii .h1-index {
+      display: flex;
+      justify-content: left;
+      background-color: #e3e3f475;
+      margin-bottom: 75px;
+      margin-top: 10px; }
+      .body-index .main-wii .h1-index h1 {
+        color: navy;
+        font-family: 'script';
+        width: 280px;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+    .body-index .main-wii .info-om {
+      height: 75%;
+      width: 98%;
+      background-color: #e3e3f475;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .body-index .main-wii .info-om .p-1 {
+        display: none; }
+      .body-index .main-wii .info-om .p-2 {
+        color: navy;
+        width: 98%;
+        height: 98%;
+        display: flex;
+        align-items: center;
+        padding: 15px; } }
 
 .body-index {
   background-image: url("../img/backround.jpg");
