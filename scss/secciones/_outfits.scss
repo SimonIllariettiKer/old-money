@@ -1,0 +1,134 @@
+.body-index {
+
+    header {
+        width: 100%;
+
+        .nav-wii {
+            background-color: #e3e3f475;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            ul {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 90%;
+
+                .li-a-1 {
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    padding: 0px;
+                    width: 100%;
+
+                    li {
+                        list-style: none;
+
+                        a {
+                            list-style: none;
+                            margin-left: 20px;
+                            margin-right: 5px;
+                            color: grey;
+                            font-family: "dancing-script";
+                            text-decoration: none;
+
+                            &:hover {
+                                color: white;
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+
+                img {
+                    width: 200px;
+                    height: 200px;
+                    margin-right: 50px;
+                }
+            }
+        }
+    }
+    .main-outfits{
+        width: 100%;
+        border: seagreen 4px solid;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        .british{
+            border: solid blue 3px;
+            height: 90%;
+            width: 30%;
+            background-color:#e3e3f475;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+            margin-left: 10px;
+            margin-right: 10px;
+            padding: 5px;
+            h2{
+                margin-top: 5px;
+            }
+            img{
+                width: 50%;
+                margin: 5px;
+            }
+            button{
+                background-color: #e3e3f475;
+                border: #280c0c;
+            }
+
+        }
+        .italian{
+            border: solid red 3px;
+            height: 90%;
+            width: 30%;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+            margin-left: 10px;
+            margin-right: 10px;
+            padding: 10px;
+            h2{
+                margin-top: 5px;
+            }
+            img{
+                width: 50%;
+                margin: 5px;
+            }
+            button{
+                background-color: #e3e3f475;
+                border: #280c0c;
+            }
+        }
+        .scandinavian{
+            border: solid cyan 3px;
+            height: 90%;
+            width: 30%;
+            background-color: blue;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+            margin-left: 10px;
+            margin-right: 10px;
+            padding: 10px;
+            h2{
+                margin-top: 5px;
+            }
+            img{
+                width: 50%;
+                margin: 5px;
+            }
+            button{
+                background-color: #e3e3f475;
+                border: #280c0c;
+            }
+        }
+    }
+}
