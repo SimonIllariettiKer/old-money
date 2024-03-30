@@ -1,0 +1,94 @@
+.body-index {
+    header {
+        width: 100%;
+
+        .navbar {
+            background-color: #e3e3f475;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            ul {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 90%;
+
+                .li-a-1 {
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    padding: 0px;
+                    width: 100%;
+
+                    li {
+                        list-style: none;
+
+                        a {
+                            list-style: none;
+                            margin-left: 20px;
+                            margin-right: 5px;
+                            color: grey;
+                            font-family: "dancing-script";
+                            text-decoration: none;
+
+                            &:hover {
+                                color: white;
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+
+                img {
+                    width: 200px;
+                    height: 200px;
+                    margin-right: 50px;
+                }
+            }
+        }
+    }
+
+    .main-british {
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        margin-bottom: 20px;
+
+        .h1-british {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            background-color: #e3e3f475;
+            margin-bottom: 75px;
+
+            h1 {
+                color: #381d1d;
+                font-family: 'script';
+                width: 280px;
+                font-size: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        .img-british {
+            display: flex;
+            justify-content: space-between;
+            width: 90vw;
+            height: 300px;
+            overflow: hidden;
+            margin-bottom: 30px;
+
+            img {
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+        }
+    }
+}
