@@ -1,8 +1,9 @@
 .body-index {
+
     header {
         width: 100%;
 
-        .navbar {
+        .nav-wii {
             background-color: #e3e3f475;
             height: 200px;
             display: flex;
@@ -29,7 +30,7 @@
                             list-style: none;
                             margin-left: 20px;
                             margin-right: 5px;
-                            color: grey;
+                            color: blueviolet;
                             font-family: "dancing-script";
                             text-decoration: none;
 
@@ -49,7 +50,6 @@
             }
         }
     }
-
     .main-british {
         height: 500px;
         display: flex;
