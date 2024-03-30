@@ -599,6 +599,72 @@ body footer {
     display: flex;
     justify-content: space-around; }
 
+.body-index header {
+  width: 100%; }
+  .body-index header .nav-wii {
+    background-color: #e3e3f475;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .body-index header .nav-wii ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 90%; }
+      .body-index header .nav-wii ul .li-a-1 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0px;
+        width: 100%; }
+        .body-index header .nav-wii ul .li-a-1 li {
+          list-style: none; }
+          .body-index header .nav-wii ul .li-a-1 li a {
+            list-style: none;
+            margin-left: 20px;
+            margin-right: 5px;
+            color: gray;
+            font-family: "dancing-script";
+            text-decoration: none; }
+            .body-index header .nav-wii ul .li-a-1 li a:hover {
+              color: white;
+              text-decoration: underline; }
+      .body-index header .nav-wii ul img {
+        width: 200px;
+        height: 200px;
+        margin-right: 50px; }
+
+.body-index .main-scandinavian {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 20px; }
+  .body-index .main-scandinavian .h1-scandinavian {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #e3e3f475;
+    margin-bottom: 75px; }
+    .body-index .main-scandinavian .h1-scandinavian h1 {
+      color: navy;
+      font-family: 'script';
+      width: 350px;
+      font-size: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+  .body-index .main-scandinavian .scandinavian-outfits {
+    background-color: #8080806d;
+    height: 200px;
+    width: 90%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around; }
+
 .body-index {
   background-image: url("../img/backround.jpg");
   background-repeat: no-repeat;

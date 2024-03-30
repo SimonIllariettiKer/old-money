@@ -1,0 +1,90 @@
+.body-index {
+
+    header {
+        width: 100%;
+
+        .nav-wii {
+            background-color: #e3e3f475;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            ul {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 90%;
+
+                .li-a-1 {
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    padding: 0px;
+                    width: 100%;
+
+                    li {
+                        list-style: none;
+
+                        a {
+                            list-style: none;
+                            margin-left: 20px;
+                            margin-right: 5px;
+                            color: gray;
+                            font-family: "dancing-script";
+                            text-decoration: none;
+
+                            &:hover {
+                                color: white;
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+
+                img {
+                    width: 200px;
+                    height: 200px;
+                    margin-right: 50px;
+                }
+            }
+        }
+    }
+    .main-scandinavian {
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        margin-bottom: 20px;
+
+        .h1-scandinavian {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            background-color: #e3e3f475;
+            margin-bottom: 75px;
+
+            h1 {
+                color: navy;
+                font-family: 'script';
+                width: 350px;
+                font-size: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        .scandinavian-outfits{
+            background-color: #8080806d;
+            height: 200px;
+            width: 90%;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-around;
+
+        }
+    }
+}
