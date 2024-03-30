@@ -467,6 +467,72 @@ body footer {
     height: 150px;
     margin-left: 10px; }
 
+.body-index header {
+  width: 100%; }
+  .body-index header .nav-wii {
+    background-color: #e3e3f475;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .body-index header .nav-wii ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 90%; }
+      .body-index header .nav-wii ul .li-a-1 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0px;
+        width: 100%; }
+        .body-index header .nav-wii ul .li-a-1 li {
+          list-style: none; }
+          .body-index header .nav-wii ul .li-a-1 li a {
+            list-style: none;
+            margin-left: 20px;
+            margin-right: 5px;
+            color: gray;
+            font-family: "dancing-script";
+            text-decoration: none; }
+            .body-index header .nav-wii ul .li-a-1 li a:hover {
+              color: white;
+              text-decoration: underline; }
+      .body-index header .nav-wii ul img {
+        width: 200px;
+        height: 200px;
+        margin-right: 50px; }
+
+.body-index .main-british {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 20px; }
+  .body-index .main-british .h1-british {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #e3e3f475;
+    margin-bottom: 75px; }
+    .body-index .main-british .h1-british h1 {
+      color: #381d1d;
+      font-family: 'script';
+      width: 280px;
+      font-size: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+  .body-index .main-british .british-outfits {
+    background-color: #381d1d62;
+    height: 200px;
+    width: 90%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around; }
+
 .body-index {
   background-image: url("../img/backround.jpg");
   background-repeat: no-repeat;

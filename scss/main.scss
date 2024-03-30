@@ -1,7 +1,10 @@
 @import "./secciones/index";
 @import "./secciones/whatisit";
 @import "../scss/secciones/outfits";
-@import "../estilos/british.html";
+
+
+//Outfits
+@import "./secciones/british";
 
 .body-index {
     background-image: url('../img/backround.jpg');

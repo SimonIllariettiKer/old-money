@@ -30,7 +30,7 @@
                             list-style: none;
                             margin-left: 20px;
                             margin-right: 5px;
-                            color: blueviolet;
+                            color: gray;
                             font-family: "dancing-script";
                             text-decoration: none;
 
@@ -77,18 +77,14 @@
             }
         }
 
-        .img-british {
-            display: flex;
-            justify-content: space-between;
-            width: 90vw;
-            height: 300px;
+        .british-outfits{
+            background-color: #381d1d62;
+            height: 200px;
+            width: 90%;
             overflow: hidden;
-            margin-bottom: 30px;
+            display: flex;
+            justify-content: space-around;
 
-            img {
-                margin-left: 20px;
-                margin-right: 20px;
-            }
         }
     }
 }
