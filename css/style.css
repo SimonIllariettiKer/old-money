@@ -340,6 +340,7 @@ body footer {
 
 .body-index .main-outfits {
   width: 100%;
+  border: solid 5px red;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -466,6 +467,11 @@ body footer {
     width: 150px;
     height: 150px;
     margin-left: 10px; }
+
+@media (max-width: 600px) {
+  .main-outfits {
+    border: solid 3px blue;
+    background-color: cyan; } }
 
 .body-index header {
   width: 100%; }

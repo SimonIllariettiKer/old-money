@@ -53,6 +53,7 @@
 
     .main-outfits {
         width: 100%;
+        border: solid 5px red;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -219,5 +220,12 @@
             margin-left: 10px;
         }
 
+    }
+}
+
+@media (max-width: 600px) {
+    .main-outfits{
+        border: solid 3px blue;
+        background-color: cyan;
     }
 }
